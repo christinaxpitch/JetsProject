@@ -9,12 +9,14 @@ This week three project brings everything we have learned so far together in a w
 *Pass by value
 *Interfaces
 *Abstract classes
+*Polymorphism
 *Implements
 *Extends
 *Constructors
 *Getters/Setters
 *Exceptions
 *File Reader/Buffered Reader
+*Importing data from text files
 
 ####How to Run - Instructions  
 1. The user is greeted by the program's welcome message and the main menu of options
@@ -25,10 +27,11 @@ This week three project brings everything we have learned so far together in a w
 #### The Method to the Madness
 1. I set up the Jet abstract class with four fields for a jet (model, speed, range, price). The getters & setters, and to string method was also in this class. The purpose of this class is so that other types of jets ca extend this class, and take in the information from this parent "Jet" class.
 2. I created three other types of jet classes which extended Jet.
-3. A text file was created and I inputted the information for five jets. In the Airfield class, I created a filereader so that the information can be put into the array list from the file.
+3. A text file was created and I inputted the information for five jets. In the Airfield class, I created a filereader so that the text information can be converted to usable data.
 4. The static main method in the JetApplication calls upon the launch method, which runs the program.
 5. In the launch method, I first created the welcome message to the user with the main menu. The user input for menu choice is taken in by a scanner and the switch statement allows the method the user picked to be executed.
 6. The methods for getting the jet with the maximum speed and the jet with the longest range is in Airfield, along with other methods to give the user data on the fleet. For each of these methods, I used for loops.
-7. The user is able to add and remove jets to the fleet, and see the changing array size once altered. 
+7. The user is able to add and remove jets to the fleet, and see the changing array list size once altered.
+8. Two of the Jet subclasses (CargoJet and FighterJet) use interfaces to implement methods uniquie to them.
 
 ENJOY!
