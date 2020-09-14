@@ -18,7 +18,7 @@ This week three project brings everything we have learned so far together in a w
 *File Reader/Buffered Reader
 *Importing data from text files
 
-####How to Run - Instructions  
+#### How to Run - Instructions  
 1. The user is greeted by the program's welcome message and the main menu of options
 2. The user can pick options by inputting their menu choice, which includes listing all jets in the fleet, seeing the fastest jet, adding a jet, etc.
 3. If the user wishes to add a jet, they will be prompted by a sub menu on which type of jet they would like to add (cargo, commercial, or fighter). From here, they are asked for user input for the jet and after all is taken in, the new jet is added to the array list.
